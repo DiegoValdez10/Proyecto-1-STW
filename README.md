@@ -13,6 +13,8 @@
 - `npm run webpack`
 
 # Estructura
+## Proyecto1 
+Es la carpeta donde se encuentra la configuración (package.json, webpack y Babel)
 ## .Firebase
 Esta carpeta fue donde firebase realizó su deploy y creo el hosting para el proyecto
 ## Dist_webpack_Babel
