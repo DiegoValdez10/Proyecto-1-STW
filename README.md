@@ -1,5 +1,5 @@
 # Tecnologías Proyecto 1
-1. Clonar repositorio `https://github.com/Sebas021210/Proyecto1-STW`
+1. Clonar repositorio `https://github.com/DiegoValdez10/Proyecto-1-STW`
 2. Moverse al directorio: `cd proyecto1`.<br />
 3. Correr `npm install` para instalar dependencias.<br />
 4. Correr `npm start` para ver la página.
