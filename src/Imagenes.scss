@@ -1,0 +1,218 @@
+@media screen and (max-width: 768px) {
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-container div {
+    margin-bottom: 20px;
+  }
+
+  .image-container div img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .image-container {
+    display: inline-flex;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .image-container div {
+    margin-right: 2px;
+  }
+}
+
+.image-container div {
+  transition: transform 0.3s ease-in-out;
+  flex-shrink: 0;
+}
+
+.image-container div:hover {
+  transform: scaleX(1.1);
+  margin-right: 10px;
+}
+
+.image-container div:not(:hover) {
+  transform: scaleX(0.9);
+  margin-right: -10px;
+}
+
+.image-container div img {
+  filter: grayscale(80%);
+  transition: transform 0.3s ease-in-out, flex-grow 0.3s ease-in-out;
+  flex-grow: 1;
+}
+
+.image-container div img:hover {
+  filter: grayscale(0%);
+  transform: scaleX(1.1);
+  flex-grow: 2;
+}
+
+.image-container div:not(:hover) {
+  transform: scaleX(0.9);
+  margin-right: -10px;
+}
+
+.video1 {
+  margin-right: 3px;
+}
+
+.eyewear {
+  margin-right: 3px;
+}
+
+.footwear {
+  margin-right: 3px;
+}
+
+.Underwear {
+  margin-right: 3px;
+}
+
+.fragances {
+  margin-right: 3px;
+}
+.caption2 {
+  position: absolute;
+  font-family: "Proxima", ProximaNova-Regular;
+  bottom: 120px;
+  left: 0;
+  right: 0;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+.footwear .caption2 {
+  position: absolute;
+  bottom: 120px;
+  font-family: "Proxima", ProximaNova-Regular;
+  left: 0;
+  right: 0;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  opacity: 1;
+}
+
+.h3V{
+  font-weight: bold;
+  font-family: "Proxima", ProximaNova-Regular;
+}
+.caption3 {
+  position: absolute;
+  bottom: 120px;
+  left: 0;
+  font-family: "Proxima", ProximaNova-Regular;
+  right: 0;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+.footwear .caption3 {
+  position: absolute;
+  bottom: 120px;
+  left: 0;
+  font-family: "Proxima", ProximaNova-Regular;
+  right: 0;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  opacity: 1;
+}
+
+.h3E{
+  font-weight: bold;
+  font-family: "Proxima", ProximaNova-Regular;
+}
+.caption4 {
+  position: absolute;
+  bottom: 120px; 
+  left: 0;
+  font-family: "Proxima", ProximaNova-Regular;
+  right: 0;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0;
+}
+.footwear .caption4 {
+  position: absolute;
+  bottom: 120px;
+  font-family: "Proxima", ProximaNova-Regular;
+  left: 0;
+  right: 0;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  opacity: 1;
+}
+
+.h3F{
+  font-weight: bold;
+  font-family: "Proxima", ProximaNova-Regular;
+}
+.caption5 {
+  position: absolute;
+  bottom: 120px; 
+  left: 0;
+  right: 0;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  font-family: "Proxima", ProximaNova-Regular;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 1;
+}
+.footwear .caption5 {
+  position: absolute;
+  bottom: 120px;
+  font-family: "Proxima", ProximaNova-Regular;
+  left: 0;
+  right: 0;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  opacity: 1;
+}
+
+.h3U{
+  font-weight: bold;
+  font-family: "Proxima", ProximaNova-Regular;
+}
+.caption6 {
+  position: absolute;
+  bottom: 120px; 
+  left: 0;
+  right: 0;
+  font-family: "Proxima", ProximaNova-Regular;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 1;
+  font-family: "Proxima", ProximaNova-Regular;
+}
+.footwear .caption6 {
+  position: absolute;
+  bottom: 120px;
+  left: 0;
+  font-family: "Proxima", ProximaNova-Regular;
+  right: 0;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  opacity: 1;
+}
+
+.h3FR{
+  font-weight: bold;
+  font-family: "Proxima", ProximaNova-Regular;
+} 

@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Proxima";
+  src: url("./Fonts/ProximaNova-Regular.otf");;
+}
+
+body {
+  background: #000000;
+}
+.CRIS{
+  color: #808080;
+  margin-left: 550px;
+  font-family: "Proxima", ProximaNova-Regular;
+  align-items: center;
+  
+}
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 1);
+  z-index: 9999;
+}
+.Imagen {
+  width: 150px; /* Establece el ancho de la imagen */
+}
+.Imagen img{
+  width: 100%;
+  height: auto;
+  display: block; /* Asegura que la imagen se alinee correctamente */
+}
+
+.Titulo {
+  display: flex;
+  font-family: "Proxima", ProximaNova-Regular;
+  left: 550px;
+  justify-content: flex-start; /* Cambia de "right" a "flex-start" */ /* Resta el ancho de la imagen */
+}
+
+.Titulo h4 {
+  margin-right: 90px;
+  color: #808080;
+  font-family: "Proxima", ProximaNova-Regular;
+}
+
+.App-header:hover .Carrer + .Carrer::before {
+  content: '';
+  position: absolute;
+  top: 35px;
+  left: 20;
+  font-family: "Proxima", ProximaNova-Regular;
+  width: 2.3%;
+  height: 1.5px;
+  background-color: orange;
+}
+
+.Carrer:hover{
+  color: white; /* Cambiar el color del texto al gris oscuro al hacer hover */
+  cursor: pointer; /* Cambiar el cursor del mouse a pointer */
+}
+.CRIS:hover{
+  color: white; /* Cambiar el color del texto al gris oscuro al hacer hover */
+  cursor: pointer; /* Cambiar el cursor del mouse a pointer */
+}
+.Highlights:hover{
+  color: white; /* Cambiar el color del texto al gris oscuro al hacer hover */
+  cursor: pointer; /* Cambiar el cursor del mouse a pointer */
+}
+.Origins:hover{
+  color: white; /* Cambiar el color del texto al gris oscuro al hacer hover */
+  cursor: pointer; /* Cambiar el cursor del mouse a pointer */
+}
+.Newsletter:hover{
+  color: white; /* Cambiar el color del texto al gris oscuro al hacer hover */
+  cursor: pointer; /* Cambiar el cursor del mouse a pointer */
+}
+.Partners:hover{
+  color: white; /* Cambiar el color del texto al gris oscuro al hacer hover */
+  cursor: pointer; /* Cambiar el cursor del mouse a pointer */
+}

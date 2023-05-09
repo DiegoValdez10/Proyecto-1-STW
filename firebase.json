@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist_webpack_babel",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

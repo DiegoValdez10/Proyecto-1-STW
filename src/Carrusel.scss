@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Proxima";
+  src: url("./Fonts/ProximaNova-Regular.otf");;
+}
+.carrusel-container video {
+  .carrusel-container {
+    position: relative;
+    max-width: 100%;
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  }
+  .Manchester {
+    position: absolute;
+    color: White;
+    font-family: "Proxima", ProximaNova-Regular;
+    bottom: 2rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    font-size: 1.5rem;
+  }
+  

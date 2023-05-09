@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Proxima";
+  src: url("./Fonts/ProximaNova-Regular.otf");;
+}
+body {
+  margin: 0;
+  font-family: "Proxima", ProximaNova-Regular;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
