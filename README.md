@@ -11,6 +11,25 @@
 - `npm test`
 - `npm run eject`
 - `npm run webpack`
+
+# Estructura
+## .Firebase
+Esta carpeta fue donde firebase realizó su deploy y creo el hosting para el proyecto
+## Dist_webpack_Babel
+En esta carpeta fue donde webpack montó todo el proyecto y donde el bundle.js fue alojado
+## Public
+En la carpeta de public se encuentra el html del proyecto
+## SRC
+### Dentro de SRC se encuentran los siguientes componentes:
+- Fonts
+- Images
+- App.js 
+- Brand.js
+- Carrusel.js
+- Imagenes.js
+- index.js
+- Origins.js
+- Register.js
 ## React
 Es una biblioteca de JavaScript de código abierto utilizada para construir interfaces de usuario interactivas y dinámicas.
 ## Firebase
