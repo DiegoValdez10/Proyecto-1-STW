@@ -1,5 +1,6 @@
 # Tecnologías Proyecto 1
 ## React
+Es una biblioteca de JavaScript de código abierto utilizada para construir interfaces de usuario interactivas y dinámicas.
 ## Firebase
 Link a página web: https://proyecto-1-diego-valdez.web.app
 ## Webpack
