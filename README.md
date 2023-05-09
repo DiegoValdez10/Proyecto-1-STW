@@ -1,7 +1,7 @@
 # Tecnologías Proyecto 1
-##React
+## React
 ## Firebase
 Link a página web: https://proyecto-1-diego-valdez.web.app
-##Webpack
-##Babel
-##NodeJS
+## Webpack
+## Babel
+## NodeJS
