@@ -1,4 +1,16 @@
 # Tecnologías Proyecto 1
+1. Clonar repositorio `https://github.com/Sebas021210/Proyecto1-STW`
+2. Moverse al directorio: `cd proyecto1`.<br />
+3. Correr `npm install` para instalar dependencias.<br />
+4. Correr `npm start` para ver la página.
+
+## Commands
+
+- `npm start`
+- `npm run build`
+- `npm test`
+- `npm run eject`
+- `npm run webpack`
 ## React
 Es una biblioteca de JavaScript de código abierto utilizada para construir interfaces de usuario interactivas y dinámicas.
 ## Firebase
@@ -19,15 +31,3 @@ Es un preprocesador de CSS que permite a los desarrolladores escribir hojas de e
 Es un framework de diseño web de código abierto que proporciona a los desarrolladores una amplia variedad de herramientas y componentes para crear sitios web y aplicaciones web con un diseño responsive y atractivo.
 ## Getting started
 
-1. Clonar repositorio `https://github.com/Sebas021210/Proyecto1-STW`
-2. Moverse al directorio: `cd proyecto1`.<br />
-3. Correr `npm install` para instalar dependencias.<br />
-4. Correr `npm start` para ver la página.
-
-## Commands
-
-- `npm start`
-- `npm run build`
-- `npm test`
-- `npm run eject`
-- `npm run webpack`
