@@ -29,5 +29,5 @@ Es una herramienta de procesamiento de CSS que permite a los desarrolladores esc
 Es un preprocesador de CSS que permite a los desarrolladores escribir hojas de estilo CSS de manera más eficiente y organizada. Sass añade características adicionales a CSS, como variables, anidamiento de selectores, mixins, funciones, importaciones y herencia, entre otras. 
 ## Bootstrap
 Es un framework de diseño web de código abierto que proporciona a los desarrolladores una amplia variedad de herramientas y componentes para crear sitios web y aplicaciones web con un diseño responsive y atractivo.
-## Getting started
+
 
