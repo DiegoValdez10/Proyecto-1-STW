@@ -26,11 +26,120 @@ En la carpeta de public se encuentra el html del proyecto
 - Fonts
 - Images
 - App.js 
+function App() {
+  const ImagenesRef = useRef(null);
+  const careerRef = useRef(null);
+  const originsRef = useRef(null);
+  const newsletterRef = useRef(null);
+  const partnersRef = useRef(null);
+
+  const scrollToRef = (ref) => {
+    if (ref && ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 - Brand.js
+<div className="grid-container">
+        <div className="grid-item"><img src={Pestana} alt="Pestana" /></div>
+        <div className="grid-item"><img src={Legend} alt="Legend" /></div>
+        <div className="grid-item"><img src={Insparya} alt="Insparya" /></div>
+        <div className="grid-item"><img src={Nike} alt="Nike" /></div>
+        <div className="grid-item"><img src={Zuju} alt="Zuju" /></div>
+        <div className="grid-item"><img src={Herbalife} alt="Herbalife" /></div>
+        <div className="grid-item"><img src={Clear} alt="Clear" /></div>
+        <div className="grid-item"><img src={Binance} alt="Binance" /></div>
+        <div className="grid-item"><img src={Altice} alt="Altice" /></div>
+        <div className="grid-item"><img src={Fitness} alt="Fitness" /></div>
+        <div className="grid-item"><img src={FF} alt="Free Fire" /></div>
+        <div className="grid-item"><img src={Therabody} alt="Therabody" /></div>
+        <div className="grid-item"><img src={LiveScore} alt="LiveScore" /></div>
+        <div className="grid-item"><img src={UFL} alt="UFL" /></div>
+        <div className="grid-item"><img src={Domum} alt="Domum" /></div>
+        <div className="grid-item"><img src={MTG} alt="MTG" /></div>
+        <div className="grid-item"><img src={Jacob} alt="Jacob & Co" /></div>
+      </div>
+    </div>
+  );
+}
 - Carrusel.js
+export default function VideoCarousel() {
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  const videoProperties = [
+    {
+      id: 1,
+      src: Sporting,
+      text: "Sporting",
+    },
+    {
+      id: 2,
+      src: Manchester,
+      text: "Manchester United",
+    },
+    {
+      id: 3,
+      src: REALMADRID,
+      text: "RealMadrid",
+    },
+    {
+      id: 4,
+      src: Juve,
+      text: "Juventus",
+    },
+    {
+      id: 5,
+      src: Portuga,
+      text: "Portugal",
+    },
+  ];
 - Imagenes.js
+const Imagenes = () => {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    videoRef.current.play();
+  }, []);
+
+  const toggleGrayscale = (event) => {
+    event.currentTarget.classList.toggle("grayscale");
+  }
 - index.js
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 - Origins.js
+  const handleVideoClick = () => {
+    if (!videoStarted) {
+      setVideoStarted(true);
+      preloadImage();
+      const videoElement = document.querySelector(".reproductor");
+      videoElement.play();
+    }
+    setPlaying(true);
+  };
+
+    return (
+        <div className="conteiner">
+            <div className="Tunned">
+                <h1>STAY TUNED</h1>
+            </div>
+            <div className="texto"><p>Subscribe my newsletter and don’t miss any update on new products, promotions or even career events.</p></div>
+            <div className="register-container">
+                <div className="checkbox-container">
+                    <div
+                        className={`circle ${isChecked ? "clicked" : ""}`}
+                        onClick={handleCircleClick}
+                    ></div>
+                    <p>I read and accept the privacy policy.</p>
+                </div>
+                <div className="input-container">
+                    <input type="email" placeholder="Email" required />
+                    <button type="submit">Subscribe to newsletter</button>
+                </div>
+            </div>
 - Register.js
 ## React
 Es una biblioteca de JavaScript de código abierto utilizada para construir interfaces de usuario interactivas y dinámicas.
