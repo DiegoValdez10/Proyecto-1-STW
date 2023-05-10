@@ -23,9 +23,9 @@ En esta carpeta fue donde webpack montó todo el proyecto y donde el bundle.js f
 En la carpeta de public se encuentra el html del proyecto
 ## SRC
 ### Dentro de SRC se encuentran los siguientes componentes:
-- Fonts
-- Images
-- App.js 
+###- Fonts
+###- Images
+### - App.js 
 function App() {
   const ImagenesRef = useRef(null);
   const careerRef = useRef(null);
@@ -38,8 +38,8 @@ function App() {
       ref.current.scrollIntoView({ behavior: "smooth" });
     }
   };
-- Brand.js
-- Carrusel.js
+### - Brand.js
+### - Carrusel.js
 export default function VideoCarousel() {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
@@ -70,7 +70,7 @@ export default function VideoCarousel() {
       text: "Portugal",
     },
   ];
-- Imagenes.js
+### - Imagenes.js
 const Imagenes = () => {
   const videoRef = useRef(null);
 
@@ -81,14 +81,14 @@ const Imagenes = () => {
   const toggleGrayscale = (event) => {
     event.currentTarget.classList.toggle("grayscale");
   }
-- index.js
+### - index.js
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
-- Origins.js
+### - Origins.js
   const handleVideoClick = () => {
     if (!videoStarted) {
       setVideoStarted(true);
@@ -118,7 +118,7 @@ root.render(
                     <button type="submit">Subscribe to newsletter</button>
                 </div>
             </div>
-- Register.js
+### - Register.js
 ## React
 Es una biblioteca de JavaScript de código abierto utilizada para construir interfaces de usuario interactivas y dinámicas.
 ## Firebase
